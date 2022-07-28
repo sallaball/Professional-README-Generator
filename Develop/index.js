@@ -8,7 +8,7 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of your project? (Required)',
+        message: 'What is the title of your project? (Required):',
         validate: titleInput => {
             if (titleInput) {
                 return true;
@@ -21,17 +21,17 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Please enter a description of your project',
+        message: 'Please enter a description of your project:',
     },
     {
         type: 'input',
         name: 'content',
-        message: 'Create the table of content'
+        message: 'Create the table of content:'
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'Please provide step-by-step installation instruction for your project. (Required)',
+        message: 'Please provide step-by-step installation instruction for your project. (Required):',
         validate: installInput => {
             if (installInput) {
                 return true;
@@ -44,7 +44,7 @@ const questions = [
             {
                 type: 'input',
                 name: 'usage',
-                message: 'Please provide instruction and example for use. (Required)',
+                message: 'Please provide instruction and example for use. (Required):',
                 validate: usageInput => {
                     if (usageInput) {
                         return true;
@@ -58,7 +58,7 @@ const questions = [
         {
             type: 'list',
             name: 'license',
-            message: 'Please select which license you will use for your project',
+            message: 'Please select which license you will use for your project:',
             choices: ['agpl', 'apache', 'mit', 'No license']
         },
         {
@@ -70,7 +70,7 @@ const questions = [
         {
             type: 'input',
             name: 'contribution',
-            message: 'Please provide guidelines for contributing. (Required)',
+            message: 'Please provide guidelines for contributing. (Required):',
             when: ({ confirmContributors }) => {
                 if (confirmContributors) {
                     return true;
@@ -91,7 +91,7 @@ const questions = [
         {
             type: 'input',
             name: 'test',
-            message: 'Provide instructions on how to test the app. (Required)',
+            message: 'Provide instructions on how to test the app. (Required):',
             validate: testInput => {
                 if (testInput) {
                     return true;
@@ -104,7 +104,7 @@ const questions = [
     {
         type: 'input',
         name: 'githubUserName',
-        message: 'What is you GitHub Username? (Required)',
+        message: 'What is you GitHub Username? (Required):',
         validate: githubInput => {
             if (githubInput) {
                 return true;
@@ -117,7 +117,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'Please enter your email address (Required)',
+        message: 'Please enter your email address (Required):',
         validate: emailInput => {
             if (emailInput) {
                 return true;
