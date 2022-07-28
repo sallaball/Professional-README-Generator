@@ -12,11 +12,13 @@
   
   ## [Description](#table-of-contents)
 
-  By answering the questions in the inquirer, a README file will be generated. You can      then copy the README file to your project
+  By answering the questions in the inquirer, a README file will be generated. You can then copy the README file to your project.
 
   ## [Installation](#table-of-contents)
 
   Click the repository link below. Download the zip file and copy it to your directory or clone to a directory using your terminal. Open the file in VS Code and you will be able to run the app.
+  
+  https://github.com/sallaball/Professional-README-Generator
 
   ## [Usage](#table-of-contents)
 
@@ -40,7 +42,7 @@
   
   For any questions, please contact me using the following links:
   
-  [GitHub](https://github.com/undefined)
+  [GitHub](https://github.com/sallaball)
 
   [Email: sallaball1206@gmail.com](mailto:sallaball1206@gmail.com)
   
